@@ -951,11 +951,11 @@ export default function ServiceLandingPage({
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-white leading-tight font-be [text-wrap:balance]"
+            className="text-[1.35rem] sm:text-2xl md:text-[2.2rem] lg:text-5xl font-extrabold text-white leading-snug font-be [text-wrap:balance] hyphens-none"
           >
             {title}
             {subtitle && (
-              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-200 mt-1">
+              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-200 mt-1.5 text-[1.2rem] sm:text-xl md:text-[1.9rem] lg:text-4xl [text-wrap:balance] hyphens-none leading-snug">
                 {subtitle}
               </span>
             )}

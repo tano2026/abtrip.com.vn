@@ -123,11 +123,11 @@ export default function FlightPage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className="text-[1.75rem] sm:text-[2rem] lg:text-[2.4rem] xl:text-[2.8rem] font-extrabold text-white mb-5 leading-[1.18] tracking-tight text-left [text-wrap:balance]"
+              className="text-[1.6rem] sm:text-[2rem] lg:text-[2.4rem] xl:text-[2.8rem] font-extrabold text-white mb-5 leading-[1.18] tracking-tight text-left"
             >
-              Giải Pháp Vé Máy Bay{" "}
-              <span className="text-cyan-300">B2B · B2G</span>{" "}
-              & Tích Hợp App Ngân Hàng
+              <span className="block">Giải Pháp Vé Máy Bay</span>
+              <span className="block"><span className="text-cyan-300">B2B · B2G</span> & Tích Hợp</span>
+              <span className="block">App Ngân Hàng</span>
             </motion.h1>
 
             <motion.p

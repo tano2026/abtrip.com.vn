@@ -65,7 +65,7 @@ export default function GroundHandlingPage() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-slate-900 leading-tight [text-wrap:balance]"
+            className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-extrabold text-slate-900 leading-tight [text-wrap:balance]"
           >
             Dịch Vụ Mặt Đất Sân Bay
             <span className="block text-gradient-gold mt-1">Hỗ Trợ Điều Hành Bay Chuyên Nghiệp</span>

@@ -172,7 +172,7 @@ export default function SimLandingPage() {
               <span className="text-xs font-bold uppercase tracking-wider text-cyan-200">Giải Pháp eSIM Tiện Lợi Nhất</span>
             </div>
             
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight tracking-tight">
+            <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-extrabold leading-tight tracking-tight">
               eSIM Du Lịch Quốc Tế
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-sky-300 to-blue-200 mt-1">Kết Nối 200+ Quốc Gia</span>
             </h1>

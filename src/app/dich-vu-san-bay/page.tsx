@@ -155,7 +155,7 @@ export default function AirportServicePage() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-white leading-tight [text-wrap:balance] font-be"
+            className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-extrabold text-white leading-tight [text-wrap:balance] font-be"
           >
             Dịch Vụ Sân Bay VIP Trọn Gói
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-400 to-amber-200 mt-1">

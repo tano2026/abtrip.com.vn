@@ -189,7 +189,7 @@ export default function Navbar() {
               <NavDropdown label="Dịch vụ sân bay" items={airportServices} cols={1} />
               <NavDropdown label="Tiện ích du lịch" items={travelUtilities} cols={1} />
               <NavDropdown label="Du lịch" items={travelTourism} cols={1} />
-              <NavDropdown label="Mặt đất" items={groundServices} cols={2} />
+              <NavDropdown label="Dịch vụ mặt đất" items={groundServices} cols={2} />
 
               <Link
                 href="/blog"

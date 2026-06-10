@@ -116,11 +116,12 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
-              className="text-[1.75rem] sm:text-[2rem] lg:text-[2.4rem] xl:text-[2.8rem] font-extrabold text-slate-900 mb-5 leading-[1.18] tracking-tight text-left [text-wrap:balance]"
+              className="text-[1.75rem] sm:text-[2rem] lg:text-[2.4rem] xl:text-[2.8rem] font-extrabold mb-5 leading-[1.18] tracking-tight text-left"
+              style={{ color: "#104476" }}
             >
-              Nền Tảng Dịch Vụ{" "}
-              <span className="text-gradient-gold">Du Lịch & Hàng Không</span>{" "}
-              Toàn Diện Cho Doanh Nghiệp
+              <span className="block">Nền Tảng Dịch Vụ</span>
+              <span className="block"><span className="text-gradient-gold">Du Lịch & Hàng Không</span></span>
+              <span className="block">Toàn Diện Cho Doanh Nghiệp</span>
             </motion.h1>
 
             <motion.p

@@ -27,6 +27,7 @@ import {
   Plane,
   Hotel,
   ArrowRight,
+  Compass,
 } from "lucide-react";
 
 /* ─── DATA ─────────────────────────────────────────────── */
@@ -48,6 +49,7 @@ const travelUtilities = [
 ];
 
 const travelTourism = [
+  { title: "Khám Phá Du Lịch", desc: "Điểm đến · Ẩm thực · Văn hóa · Tips", href: "/kham-pha", icon: Compass, badge: "New" },
   { title: "Tour Ghép Đoàn", desc: "Giá tốt, khởi hành định kỳ", href: "/tour/tour-ghep", icon: Users, badge: "" },
   { title: "Tour Đặt Riêng", desc: "Thiết kế theo yêu cầu", href: "/tour/tour-dat-rieng", icon: Map, badge: "" },
   { title: "Tổ Chức Sự Kiện & MICE", desc: "Incentive · Gala · Teambuilding", href: "/to-chuc-su-kien", icon: Calendar, badge: "" },

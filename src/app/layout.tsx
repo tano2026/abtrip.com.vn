@@ -79,7 +79,7 @@ export const metadata: Metadata = {
     site: "@abtrip_vn",
   },
   verification: {
-    google: "GOOGLE_SEARCH_CONSOLE_TOKEN",
+    google: "DyJdoW-P1K_TkOqS0cWU4Bytzac_YG85rB-GkC31XNM",
   },
   other: {
     "geo.region": "VN-HN",
